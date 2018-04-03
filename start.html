@@ -1,4 +1,4 @@
-
+<!doctype HTML>
 <html>
 <head>
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
@@ -8,26 +8,21 @@
 
 <body style='margin : 0px; overflow: hidden;'>
 <a-scene embedded arjs='sourceType: webcam;'>
-<!-- below is for content -->
+
 <a-assets>
-<!-- id=“file name“ src=“file url" -->
 <a-asset-item id="obj" src="https://mitchwang422.github.io/Bigmax_White/Bigmax_White_OBJ.obj"></a-asset-item>
 <a-asset-item id="mtl" src="https://mitchwang422.github.io/Bigmax_White/Bigmax_White_OBJ.mtl"></a-asset-item>
 </a-assets>
 
-
-	
 <a-marker preset='hiro'>
+	
 <a-entity 
 	id="model" 
 	obj-model="obj: #obj; mtl: #mtl"></a-entity>
-		</a-marker>
-
-<!-- add a simple camera -->
+</a-marker>
+	
 <a-entity camera></a-entity>
 </a-scene>
 
-
 </body>
-
 </html>
