@@ -4,8 +4,8 @@ function changemodel( title )
   	if (title === “bigmax”)
   	{
   		console.log("Hello world!" + title  ) ;
-  		document.getElementByID(obj).src="bigmax/model.obj"
-       document.getElementByID(mtl).src="bigmax/model.mtl"
+//   		document.getElementByID(obj).src="bigmax/model.obj"
+//        document.getElementByID(mtl).src="bigmax/model.mtl"
   	}
 
        
