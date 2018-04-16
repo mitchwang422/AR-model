@@ -1,8 +1,8 @@
-function changemodel( title )
+function changemodel()
 {
 	console.log("Hello world!") ;
 	
-	 if (scans.title === "bigmax")
+	 if (scan.content === "bigmax")
   	{
   		console.log("Hello world!" + title  ) ;
 		document.getElementByID(obj).src="bigmax/model.obj"
