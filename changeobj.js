@@ -2,7 +2,7 @@ function changemodel( title )
 {
 	console.log("Hello world!") ;
 	
-	 if (title === "bigmax")
+	 if (scans.title === "bigmax")
   	{
   		console.log("Hello world!" + title  ) ;
 //   		document.getElementByID(obj).src="bigmax/model.obj"
