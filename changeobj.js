@@ -31,4 +31,4 @@ function workOrderStatus( variable ){
 		alert('obj = ' +  $('#obj').attr('src')  +' mtl =' + $("#mtl").attr('src')) ;
 
   }  
-
+}
